@@ -1,0 +1,29 @@
+body{
+	background-color:EEE8AA;
+	color:#000000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16;
+}
+#Frame{
+	border: 10px solid #990033;
+}
+	
+#backgroundOne{
+	background-color: pink;
+	display: table-cell;
+  	padding: 16px;
+	
+	overflow: auto; 
+	margin-bottom: -99999px;
+	padding-bottom: 99999px;
+}
+
+#backgroundTwo{
+	background-color: coral;
+	display: table-cell;
+  	padding: 16px;
+
+	overflow: auto; 
+	margin-bottom: -99999px;
+	padding-bottom: 99999px;
+}
