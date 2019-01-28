@@ -1,0 +1,28 @@
+body{
+	background-color:EEE8AA;
+	color:#000000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16;
+}
+
+	
+#backgroundOne{
+	background-color: pink;
+	display: table-cell;
+  	padding: 16px;
+	
+	overflow: auto; 
+}
+
+#backgroundTwo{
+	background-color: coral;
+	display: table-cell;
+  	padding: 16px;
+
+	overflow: auto; 
+}
+.imgResponse{
+width:100%;
+height:auto;
+display:block;
+}
