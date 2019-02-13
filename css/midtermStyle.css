@@ -1,0 +1,16 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    height:auto;
+    width:100%;
+    display:block;
+}
+#bannerRow {
+    text-align: center;
+    margin: 10px;
+    height: 90px;
+    border: 5px solid black;
+    background: white;
+    border-radius: 30px;
+}

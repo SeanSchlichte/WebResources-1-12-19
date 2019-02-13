@@ -1,0 +1,61 @@
+
+@media only screen and (max-width: 575px) {
+    body {
+        background-color: #EEE8AA;
+        color: #000000;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width: 576px) {
+    body {
+        background-color: deeppink;
+        color: white;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: coral;
+        color: black;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 16px;
+    }
+    #nameFrame {
+        font-size: 32px;
+    }
+}
+
+#bannerRow {
+    text-align: center;
+    margin: 10px;
+    height: 90px;
+    border: 5px solid black;
+    background: white;
+    border-radius: 30px;
+}
+	
+#backgroundOne{
+	background-color: pink;
+	display: table-cell;
+  	
+	
+	overflow: auto; 
+}
+
+#backgroundTwo{
+	background-color: coral;
+	display: table-cell;
+  	padding: 16px;
+
+	overflow: auto; 
+}
+.imgResponse{
+width:100%;
+height:auto;
+display:block;
+}
