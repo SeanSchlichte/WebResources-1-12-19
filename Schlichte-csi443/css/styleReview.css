@@ -1,0 +1,42 @@
+
+#img1 {
+             float:left;
+        } 
+#img2 {
+            float:right;
+        } 
+img {
+            margin: 5px;
+		width:75%;
+		height:auto;
+		display:block;
+        } 
+@media only screen and (max-width: 575px) {
+	#div1,#div3 {
+		background-color: #F1948A;
+	}
+
+	#div2,#div4 {
+		background-color: #82E0AA;
+	}
+}
+@media only screen and (max-width:767px) and (min-width: 576px){
+	#div1,#div4 {
+		background-color: #CB4335;
+	}
+
+	#div2,#div3 {
+		background-color: #28B463;
+	}
+}
+@media only screen and (min-width: 768px) {
+	#div1,#div4 {
+		background-color: #78281F;
+		color:white;
+	}
+
+	#div2,#div3 {
+		background-color: #186A3B;
+		color: white;
+	}
+}
