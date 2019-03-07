@@ -1,0 +1,36 @@
+body {
+	background:#777777;
+}
+h4 {
+	color: #555555;
+	font-weight:bold;
+}
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+	box-shadow: 0px 0px 10px 0px;
+}
+#mainContentDiv {
+	background: #E0E0E0;
+	margin-top: 20px;
+	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 0px;
+}
+#navbar {
+	font-size: 18px;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	font-weight: bold;
+	text-align: right;
+	padding-top: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	width: 100%;
+	z-index: 2;
+}

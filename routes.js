@@ -20,10 +20,13 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-  '/review': { view: 'pages/review' },
-  '/assignmentThree': { view: 'pages/assignmentThree' },
-  '/webresources': { view: 'pages/webresources' },
-  '/midterm': { view: 'pages/midterm' },
+  '/gallery': { view: 'pages/gallery' },
+  '/contact': { view: 'pages/contact' },
+  '/schedule': { view: 'pages/schedule' },
+  '/attending': { view: 'pages/attending' },
+  '/volunteering': { view: 'pages/volunteering' },
+  '/history': { view: 'pages/history' },
+  '/overnight': { view: 'pages/overnight' },
 
 
   /***************************************************************************
